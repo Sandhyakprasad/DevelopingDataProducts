@@ -1,0 +1,21 @@
+### Stock Trend Shiny Application 
+#### by Sandhya K Prasad
+
+#### Documentation
+
+This is a very simple and user friendly Application to use to get information about the Stock Trend.
+This application needs the user to input the stock symbol and the date range .The data is retrieved from Google Finance data source . The application will display an interactive plot for the stock trend . The application also calculates the percentage change in the stock value for the given date range .
+
+#### How to use 
+
+- Enter the stock symbol .(Some examples are AAPL(Apple),GOOG(google),VZ(Verizon),FB(Facebook),TWTR(Twitter),TSLA(Tesla),NFLX(Netflix)) (Default value of AAPL stock is shown)
+
+- Select a valid Date Range . (Default value for Date Range is 5 days prior to the current System Date)
+
+#### Output
+
+- The output displays a interactive plot of the stock trend. The plot was created using ggplot.
+- The percent change for the given date range for the stock value is displayed.
+- The data retrieved for the particular stock is also displayed as a table.
+
+
